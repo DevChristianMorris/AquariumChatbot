@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Chatbot</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Welcome to the Aquarium Chat Bot.</h1>
+    <h2>
+      Please use this bot if you have recently had a fish pass away in your
+      aquarium and need to know your next steps. If you are here today we are
+      sorry to hear about your loss and we hope we can help prevent any further
+      losses!
+    </h2>
+    <h3>
+      If you would like to return to the beginning please type: "can you
+      reset?". If you want to know my favourite fish just type in: "what is your
+      favourite fish?"
+    </h3>
+    <div class="chatbot-interface">
+      <div class="bot-face">
+        <img class="robot-img" src="images/robotfish.gif" alt="A robot" />
+      </div>
+
+      <div class="chat-container">
+        <form id="chat-form" class="chat-form">
+          <input
+            id="chat-input"
+            class="chat-input"
+            type="text"
+            placeholder="Talk to the bot ..."
+            autocomplete="off"
+          />
+          <button class="btn-chat-send" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="chatbox-container">
+        <div id="chatbox" class="chatbox">
+          <div class="chat-item chat-item-bot">
+            Hello human! What is your name?
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="lib/index.js" type="module"></script>
+  </body>
+</html>

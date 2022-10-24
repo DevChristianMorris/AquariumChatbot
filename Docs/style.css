@@ -1,0 +1,85 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(177, 180, 184);
+  color: black;
+  border: solid 1rem black;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.chatbot-interface {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+}
+
+.bot-face {
+  flex-direction: row;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.robot-img {
+  height: 50vh;
+}
+
+.chat-container {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+.chat-form {
+  display: flex;
+}
+
+.chat-input {
+  width: 40vw;
+  font-size: 1.5em;
+}
+
+.btn-chat-send {
+  width: 10vw;
+  font-size: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chatbox-container {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+.chatbox {
+  width: 50vw;
+  max-height: 30vh;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 1.2em;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-bottom: 1rem;
+}
+
+.chat-item {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.chat-item-user {
+  font-family: "Roboto", sans-serif;
+}
+
+.chat-item-bot {
+  font-family: "Roboto Mono", monospace;
+  text-align: right;
+}
